@@ -11,7 +11,7 @@ body {
 .calc {
     width: 400px;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     background-color: black;
     color: white;
     border-radius: 5px;
@@ -19,7 +19,7 @@ body {
 }
 
 .screen {
-    font-size: 50px;
+    font-size: 3.5em;
     font-family: 'VT323', monospace;
     text-align: right;
     padding: 20px 5px;
@@ -32,7 +32,6 @@ body {
     width: 24.5%;
     border: none;
     font-size: 40px;
-    border-radius: 0;
     outline: none;
     cursor: pointer;
     font-family: 'VT323', monospace;
@@ -49,7 +48,6 @@ body {
 .double {
     width: 49.7%;
 }
-
 
 .triple {
     width: 74.8%;
@@ -72,4 +70,10 @@ body {
     align-content: stretch;
     justify-content: space-between;
     margin-bottom: 0.5%;
+}
+
+.calc-title {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'VT323', monospace;
 }
